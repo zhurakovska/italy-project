@@ -1,0 +1,128 @@
+.review {
+    padding: 70px 0;
+
+    &__inner {
+
+    }
+    
+    &__title {
+        margin: 0;
+        font-family: $title;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 38px;
+        color: #000;
+        margin: 0;
+    }
+
+    &__sentence {
+        margin-top: 10px;
+        font-family: $title;
+        line-height: 36px;
+        font-size: 20px;
+        color: #A5A5A5;
+        font-weight: 300;
+    }
+
+    &__name {
+        margin: 0;
+        margin-top: 34px;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    &__text {
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #000;
+    }
+}
+
+.text__date {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.comment {
+    margin-top: 36px;
+    margin-bottom: 76px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.field {
+    &__inner {
+        max-width: 1420px;
+        padding: 46px 48px 48px 38px;
+        box-shadow: 0px 0px 100px 0px #94949433;
+    }
+
+    &__title {
+        padding-bottom: 20px;
+        font-weight: 300;
+        font-size: 35px;
+        color: #7C7B7B;
+        line-height: 34px;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        margin-right: 132px;
+    }
+
+    &__item {
+        padding-bottom: 10px;
+        margin-top: 50px;
+        border: none;
+        border-bottom: 2px solid #B6B6B6;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        outline: none;
+    }
+
+    &__btn {
+        padding: 14px 36px;
+        display: flex;
+        margin-left: auto;
+        margin-top: 42px;
+        color: #fff;
+        background-color: #58AFDA;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        border: none;
+    }
+
+    &__textarea {
+        width: 100%;
+        margin-top: 60px;
+        max-height: 220px;
+        padding: 24px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        border: 2px solid #B6B6B6;
+        resize: none;
+        outline: none;
+    }
+
+}
+
+.field__item:hover {
+    border-bottom-color: #58AFDA;
+}
+
+.footer {
+    margin-top: 130px;
+}

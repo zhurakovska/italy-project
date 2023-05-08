@@ -1,0 +1,225 @@
+.banner {
+    &__wrapper {
+        min-height: 658px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/backgr-tour.jpg);
+        background-position: center;
+    }
+    &__text {
+        max-width: 626px;
+        font-size: 60px;
+        line-height: 84px;
+        font-family: $title;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+.benefits {
+    &__title {
+        padding: 92px 0;
+        text-align: center;
+        font-size: 48px;
+        line-height: 68px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    &__text {
+        display: flex;
+    }
+
+    &__paragraph {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #000;
+
+        & +.benefits__paragraph {
+            margin-left: 34px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        padding: 150px 0 126px 0;
+    }
+
+    &__col {
+        width: 25%;
+    }
+
+    &__card {
+        margin: 0 15px;
+        text-align: center;
+    }
+
+    &__name {
+        margin-top: 36px;
+        font-family: $title;
+        font-size: 22px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+    
+    &__sentence {
+        margin-top: 15px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+
+.steps {
+    background-color: #58AFDA;
+
+    &__col {
+        width: 25%;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: calc(100% + 60px);
+        margin: 0 -60px;
+        padding: 92px 0;
+    }
+
+    &__card {
+        margin: 0 60px;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+
+    &__number {
+        margin-right: 16px;
+        font-family: $title;
+        font-size: 64px;
+        line-height: 90px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+.slider {
+    padding: 102px 0 112px 0;
+    &__title {
+        font-size: 48px;
+        color: #000;
+        line-height: 68px;
+        font-family: $title;
+        text-align: center;
+    }
+
+    &__pistures {
+        padding: 90px 0 56px 0;
+    }
+
+    &__img + .slider__img {
+        margin-left: 14px;
+    }
+
+    &__icons {
+        position: relative;
+        text-align: center;
+    }
+
+    &__switch + .slider__switch {
+        margin-left: 15px;
+    }
+}
+
+.news {
+    &__inner {
+        margin-bottom: 36px;
+        padding-top: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: $title;
+        font-size: 36px;
+        color: #000;
+        line-height: 38px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    &__sentence {
+        font-size: 18px;
+        color: #A5A5A5;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    &__btn {
+        padding: 14px 42px;
+        border: none;
+        color: #fff;
+        background-color: #58AFDA;
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.cards {
+    &__list {
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;    
+        margin: -30px -10px;
+        padding-bottom: 108px;
+    }
+
+    &__col {
+        width: 33.3%;
+    }
+
+    &__item {
+        margin: 30px 10px;
+    }
+
+    &__title {
+        margin-top: 22px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 34px;
+        color: #000;
+    }
+
+    &__text {
+        margin-top: 16px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #A8A8A8;
+    }
+
+    &__inner {
+        margin-top: 30px;
+    }
+
+    &__link {
+        margin-right: 8px;
+        text-decoration: none;
+        color:#58AFDA;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

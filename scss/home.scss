@@ -1,0 +1,331 @@
+.italy {
+    max-height: 850px;
+    background-image: url(../img/italy-backgr.jpg);
+    position: relative;
+    &__wrapper {
+        min-height: 850px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        color: #fff;
+        &_bold {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 32px;
+        }
+
+        &_normal {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    &__title {
+        font-size: 97px;
+        line-height: 112px;
+        font-family: $title;
+        letter-spacing: 2px;
+    }
+
+    &__border {
+        padding: 20px 34px;
+        border-left: 8px solid #58AFDA;
+    }
+
+    &__inner {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        bottom: -111px;
+        right: 0;
+    }
+
+    &__card {
+        height: 212px;
+        max-width: 378px;
+        width: 23%;
+    }
+
+    &__box {
+        padding: 52px 32px;
+    }
+
+    &__sentence {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &__card_black {
+        background-color:#030A23;
+    }
+
+    &__card_blue {
+        background-color: #426A85;
+    }
+
+    &__link {
+        display: flex;
+        align-items: baseline;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &__icon {
+        margin-left: 10px;
+    }
+
+    &-scale {
+        max-width: 376px;
+        width: 20%;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    &-scale__text {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        font-family: $title;
+        font-size: 18px;
+        font-weight: 700;
+        &_blue {
+            color:#58AFDA;
+        }
+        &_grey {
+            color:#D0D0D0;
+        }
+    }
+
+    &-progress-bar {
+        width: 100%;
+        height: 5px;
+        background-color:#D0D0D0;
+    }
+
+    &-progress-bar__line {
+        height: 100%;
+        background-color: #58AFDA;
+    }
+
+    &__img {
+        max-width: 506px;
+        width: 27%;
+    }
+}
+
+.button {
+    border: none;
+    background-color:#58AFDA;
+    color: #fff;
+}
+
+.resort {
+    position: relative;
+    margin-top: 208px;
+
+    &:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 488px;
+        background-image: url(../img/resort-back.jpg);
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__img {
+        display: block;
+    }
+
+    &__text {
+        font-family: $title;
+    }
+
+    &__title {
+        font-size: 48px;
+        line-height: 52px;
+        color: #000;
+    }
+
+    &__sentence {
+        margin-top: 20px;
+        font-size: 36px;
+        line-height: 38px;
+        color:#A5A5A5;
+    }
+
+    &__btn {
+        height: 100%;
+        padding: 16px 44px;
+        font-size: 20px;
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 35px;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__word {
+        position: absolute;
+        bottom: 41px;
+        right: 114px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 36px;
+    }
+}
+
+.collage {
+
+    &__inner {
+        padding-top: 80px;
+    }
+}
+
+.description {
+
+    &__wrapper {
+        display: flex;
+        padding-top: 110px;
+        align-items: center;
+    }
+
+    &__img {
+        margin-right: 68px;
+    }
+
+    &__title {
+        font-family: $title;
+        font-size: 48px;
+        line-height: 60px;
+        color: #000;
+    }
+
+    &__text {
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #000;
+    }
+
+    &__btn {
+        margin-top: 36px;
+        padding: 18px 32px;
+    }
+}
+
+.liner {
+    min-height: 650px;
+    margin-top: 110px;
+    background-image: url(../img/liner.jpg);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+   
+    &__inner {
+        max-width: 43%;
+    }
+
+    &__title {
+        font-family: $title;
+        font-size: 48px;
+        line-height: 56px;
+        color: #fff;
+    }
+
+    &__text {
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+
+    &__btn {
+        margin-top: 60px;
+        padding: 16px 32px;
+    }
+}
+
+.stars {
+
+    &__wrapper {
+        padding-top: 130px;
+        text-align: center;
+    }
+    
+    &__icon + .stars__icon {
+        margin-left: 17px;
+    }
+
+    &__sentence {
+        margin-top: 42px;
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 500;
+        color: #000;
+
+        &_grey {
+            font-weight: 300;
+            color: #A0A0A0;
+        }
+    }
+
+    &__text {
+        margin: 0 auto;
+        margin-top: 47px;
+        max-width: 940px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 300;
+    }
+}
+
+.data {
+
+    &__one {
+        margin-top: 160px;
+    }
+
+    &__title {
+        font-size: 48px;
+    }
+
+    &__sentence {
+        margin-top: 30px;
+        font-size: 36px;
+    }
+}
+
+.cards__list {
+    padding-bottom: 0;
+}
+

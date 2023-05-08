@@ -1,0 +1,43 @@
+
+
+.information {
+    &__wrapper {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    &__additional {
+        margin-top: 56px;
+        font-size: 22px;
+        line-height: 28px;
+        color: #7C7B7B;
+    }
+
+    &__title {
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    &__inner {
+        margin-top: 36px;
+    }
+
+    &__text {
+        font-family: $text;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+
+        & + .information__text {
+            margin-top: 16px;
+        }
+
+        &_blue {
+            color: #58AFDA;
+        }
+    }
+}
